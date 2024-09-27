@@ -6,7 +6,7 @@ fun ex1_1 () {
     var a: Int = 0
     var b: Double = 2.33
     var c: String = "test"
-    var d: Boolean = true
+    var d: Boolean = true 
 
     println("Int: " + a);
     println("Double: " + b);

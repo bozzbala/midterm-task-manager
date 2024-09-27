@@ -22,7 +22,7 @@ class BankAccount(private var balance: Double) {
         if (amount > 0 && amount <= balance) {
             balance -= amount
             println("Withdrawn: $$amount, New Balance: $$balance")
-        } else {
+        } else { 
             println("Not enough balance or incorrect amount")
         }
     }
